@@ -144,3 +144,4 @@ F:\Projects\microservices-learning\PlatformService\obj\Debug\net8.0\refint\Platf
 F:\Projects\microservices-learning\PlatformService\obj\Debug\net8.0\PlatformService.pdb
 F:\Projects\microservices-learning\PlatformService\obj\Debug\net8.0\PlatformService.genruntimeconfig.cache
 F:\Projects\microservices-learning\PlatformService\obj\Debug\net8.0\ref\PlatformService.dll
+F:\Projects\microservices-learning\PlatformService\obj\Debug\net8.0\PlatformService.sourcelink.json

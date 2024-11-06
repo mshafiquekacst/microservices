@@ -1,0 +1,12 @@
+﻿# Ignore Visual Studio 2022 generated files and folders
+.vs/
+.vscode/
+.idea/
+.user
+.userosscache
+.suo
+.sln.docstates
+Thumbs.db
+# Ignore build outputs
+bin/
+obj/
