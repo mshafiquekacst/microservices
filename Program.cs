@@ -22,8 +22,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.MapControllers();
+Console.WriteLine("selected environment", builder.Configuration["CommandService"]);
 PrepDb.PrepPopulation(app, app.Environment.IsProduction());
 app.Run();
 
