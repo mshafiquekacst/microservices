@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BFxJi1BcCEJVheA4kk6/IimoUHw+v/zJ6NvT2FZGaARL34dSolMN0H/cvI8bARrJ+03PIKJReT33PF+6xHwAFw==",
+  "dgSpecHash": "MCQg2XRYf1iHqLBiCwoDSbsOH+d7uhIfzzA7EiK8UjsDzxS4had7gezbeUQ60Nm6oMa+iV6J3tX45SysE20Z3g==",
   "success": true,
   "projectFilePath": "F:\\Projects\\microservices-learning\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\mshafique\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.10\\microsoft.entityframeworkcore.inmemory.8.0.10.nupkg.sha512",
     "C:\\Users\\mshafique\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.10\\microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "C:\\Users\\mshafique\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.10\\microsoft.entityframeworkcore.sqlserver.8.0.10.nupkg.sha512",
+    "C:\\Users\\mshafique\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.10\\microsoft.entityframeworkcore.tools.8.0.10.nupkg.sha512",
     "C:\\Users\\mshafique\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mshafique\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\mshafique\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
