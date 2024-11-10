@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PlatformService.AsyncDataServices;
 using PlatformService.Data;
+using PlatformService.SyncDataServices.Grpc;
 using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,7 +30,7 @@ else
 builder.Services.AddScoped<IPlatformRepo, PlatformRepo>();
 builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>();
-
+builder.Services.AddGrpc();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
@@ -44,6 +45,19 @@ if (app.Environment.IsDevelopment())
 }
 //app.UseHttpsRedirection();
 app.MapControllers();
+app.MapGrpcService<GrpcPlatformService>();
+app.MapGet("/protos/platforms.proto", async context =>
+{
+    var file = Path.Combine(builder.Environment.ContentRootPath, "Protos", "platforms.proto");
+    if (File.Exists(file))
+        await context.Response.WriteAsync(await File.ReadAllTextAsync(file));
+    else
+    {
+        context.Response.StatusCode = 404;
+        await context.Response.WriteAsync("Not Found");
+    }
+
+});
 Console.WriteLine("selected environment", builder.Configuration["CommandService"]);
 PrepDb.PrepPopulation(app, app.Environment.IsProduction());
 app.Run();

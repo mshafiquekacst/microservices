@@ -147,3 +147,10 @@ F:\Projects\microservices-learning\PlatformService\obj\Debug\net8.0\ref\Platform
 F:\Projects\microservices-learning\PlatformService\obj\Debug\net8.0\PlatformService.sourcelink.json
 F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\appsettings.Production.json
 F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\RabbitMQ.Client.dll
+F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\Google.Protobuf.dll
+F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\Grpc.Core.Api.dll
+F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\Grpc.Net.Client.dll
+F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+F:\Projects\microservices-learning\PlatformService\bin\Debug\net8.0\Grpc.Net.Common.dll
